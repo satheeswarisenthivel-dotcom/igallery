@@ -1,0 +1,69 @@
+
+gallery.html
+<html>
+    <head>
+        <title>Gallery</title>
+        <link rel="stylesheet" href="style1.css">
+        <script src="style2.js"></script>
+    </head>
+    <body>
+        <h1>MY GALLERY - SATHEESWARI(25017493)</h1>
+        <div class="gallery">
+            <div class="galleryitem">
+                <img class="zoom" src="bunny.jpeg" onmouseover="mousein()" onmouseout="mouseout()" id="Photo">
+            </div>
+            <div class="galleryitem">
+                <img class="zoom" src="cat.jpeg" onmouseover="mousein()" onmouseout="mouseout()" id="Photo">
+            </div>
+            <div class="galleryitem">
+                <img class="zoom" src="penguin.jpeg" onmouseover="mousein()" onmouseout="mouseout()" id="Photo">
+            </div>
+            <div class="galleryitem">
+                <img class="zoom" src="dog.jpeg" onmouseover="mousein()" onmouseout="mouseout()" id="Photo">
+            </div>
+        </div>
+        <footer class="copyrights">
+            &copy; SATHEESWARI(25017493)
+        </footer>
+    </body>
+</html>
+
+
+
+style1.css
+body {
+    background-color: rgb(244, 127, 219);
+    text-align: center;
+    margin-top: 50px;
+}
+
+.gallery {
+    display: flex;
+    gap: 20px;
+    padding-top: 50px;
+    justify-content: center;;
+}
+
+.galleryitem {
+    cursor: pointer;
+    text-align: center;
+    width: 200px;
+    padding: 20px;
+}
+
+.galleryitem img {
+    width: 230px;
+    height: 300px;
+}
+
+.copyrights{
+    width: 1510px;
+    height: 20px;
+    text-align: center;
+    top: 130px;
+    left: -20px;
+    position: relative;
+}
+
+
+s
